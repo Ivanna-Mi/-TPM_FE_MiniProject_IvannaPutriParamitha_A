@@ -1,0 +1,111 @@
+
+  
+  .inter-header {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 200%;
+    color: #000000;
+    left: 30px; /* Accent */
+  }
+  .close-icon {
+    right: 30px;
+  }
+  .inter-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .inter-paragraph {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 200%;
+    color: #615D5D; /* Secondary */
+  }
+  
+  .inter-title {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 64px;
+    line-height: 200%;
+    color: #000000; 
+  }
+  .circle {
+    margin-top: 50px;
+  }
+  .container {
+    width: 400px; /* Sesuaikan dengan lebar yang kamu inginkan */
+    height: 600px; /* Sesuaikan dengan tinggi yang kamu inginkan */
+    background-color: #ffffff; /* Warna latar belakang */
+    border-radius: 10px;
+    filter: brightness(1.2);
+    margin: 0 auto;
+    padding: 40px; /* Menempatkan di tengah halaman */
+}
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background-color: #E3E3E3;
+    z-index: -1; /* Agar berada di belakang container */
+}
+
+.kotak-kotak {
+    position: relative; /* Agar kotak-kotak kecil bisa diposisikan secara absolut */
+}
+
+.kotak-kecil1 {
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    left: 0px;
+    /* Atur posisi setiap kotak kecil di sini */
+}
+
+
+.kotak-kecil2 {
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+    left: 100px;
+    /* Atur posisi setiap kotak kecil di sini */
+}
+
+.kotak-kecil3 {
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+    left: 200px;
+    /* Atur posisi setiap kotak kecil di sini */
+}
+.kotak-kecil4 {
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+    left: 300px;
+    /* Atur posisi setiap kotak kecil di sini */
+}
+.star {
+  position: absolute;
+  left: -10px;
+  bottom: -5px;
+  padding: -40px;
+  color: #4928FF;
+}
